@@ -13,6 +13,7 @@
  * When the button is pressed again the wiper will start(__Wiper On__)
  * When the button is pressed again the wiper will off(__Wiper Off__)
  * When the button is pressed thrice the car will stop(__Ignition key position at Lock__)
+ 
 
 ## State of art
  * The main focus point is seeing the wiper control of the car.
@@ -44,16 +45,22 @@ __Strengths__
 
 * No human interaction with car
 * Manages all commands with one key automatically
+
+
 __Weaknesses__
 
 * Unable to monitor status of car
 * Range is limited
 * Wait for certain time after every command to press new command 
+
+
 __Opportunities__
 
 * The Scope of this sytem is huge in automation or car control
 
 * Less cost
+
+
 __Threats__
 
 * When new command is given without completing the current command it will not take current command 
